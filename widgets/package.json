@@ -1,0 +1,16 @@
+{
+  "name": "widgets",
+  "version": "1.0.0",
+  "description": "\"my fresh widget\"",
+  "main": "widgets.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "webpack": "^4.16.3"
+  }
+}
