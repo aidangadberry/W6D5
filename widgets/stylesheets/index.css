@@ -1,0 +1,70 @@
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: sans-serif;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+  list-style: none;
+}
+
+body {
+  background-image: url('../vapebust.jpg');
+  background-size: 50%;
+}
+
+.clock {
+  font-family: 'Orbitron';
+  font-size: 20px;
+  color: white;
+  margin: auto;
+  margin-top: 20px;
+  width: 400px;
+  height: 215px;
+  background-image: url('../vapenation.jpg');
+  background-size: 100%;
+  padding: 10px;
+  border: 3px solid black;
+  box-shadow: 0 0 10px 5px limegreen;
+
+}
+
+.clock p {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.tabs {
+  border: 1px solid black;
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+  font-family: 'Orbitron';
+  font-size: 12px;
+}
+
+.tabs ul {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: limegreen;
+}
+
+.tabs article {
+  height: 200px;
+  text-align: center;
+  padding: 10px;
+    background-image: url('../vapecup.jpg');
+  background-size: 100%;
+}
